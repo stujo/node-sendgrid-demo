@@ -35,5 +35,9 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "sendgrid": "^1.9.2"
+  }
 }
