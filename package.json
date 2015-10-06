@@ -1,0 +1,39 @@
+{
+  "name": "node-sendgrid-demo",
+  "version": "0.0.0",
+  "description": "Exploration of SendGrid with Node",
+  "homepage": "http://github.com/stujo/node-sendgrid-demo",
+  "repository": "stujo/node-sendgrid-demo",
+  "author": {
+    "name": "stujo",
+    "email": "",
+    "url": "http://github.com/stujo"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "node",
+    "sendgrid",
+    "example"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "ISC"
+}
