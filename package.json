@@ -37,7 +37,11 @@
   },
   "license": "ISC",
   "dependencies": {
+    "debug": "^2.2.0",
     "dotenv": "^1.2.0",
+    "ejs": "^2.3.4",
+    "email-templates": "^2.0.1",
+    "q": "^1.4.1",
     "sendgrid": "^1.9.2"
   }
 }
